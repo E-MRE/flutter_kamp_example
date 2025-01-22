@@ -1,4 +1,4 @@
-import 'package:flutter_kamp_example/enums/phone_type.dart';
+import 'package:flutter_kamp_example/json-serialize-lesson-22-january/enums/phone_type.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'phone_model.g.dart';

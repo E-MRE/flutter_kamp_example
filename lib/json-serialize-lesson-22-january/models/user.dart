@@ -1,5 +1,5 @@
-import 'package:flutter_kamp_example/models/address.dart';
-import 'package:flutter_kamp_example/models/phone_model.dart';
+import 'package:flutter_kamp_example/json-serialize-lesson-22-january/models/address.dart';
+import 'package:flutter_kamp_example/json-serialize-lesson-22-january/models/phone_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'user.g.dart';
