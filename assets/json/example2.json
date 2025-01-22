@@ -1,0 +1,23 @@
+{
+    "name": "Ahmet",
+    "age": 30,
+    "email": "ahmet@example.com",
+    "address": {
+      "street": "İstiklal Caddesi",
+      "city": "İstanbul",
+      "postal_code": "34000"
+    },
+    "phone_numbers": [
+      {
+        "type": "mobile",
+        "number": "+90 532 123 45 67"
+      },
+      {
+        "type": "home",
+        "number": "+90 212 987 65 43"
+      }
+    ],
+    "hobbies": ["kitap okuma", "yüzme", "fotoğrafçılık"],
+    "is_active": true,
+    "registered_at": "2023-05-15T14:30:00Z"
+  }
