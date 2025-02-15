@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_kamp_example/state_management/view/calculate_page.dart';
+import 'package:flutter_kamp_example/app_start.dart';
+import 'package:flutter_kamp_example/dependency_injection-lesson-15-february/views/auth_page.dart';
 
 void main() {
+  AppStart().initializeApp();
   runApp(const MyApp());
 }
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CalculatePage(),
+      home: const AuthPage(),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
