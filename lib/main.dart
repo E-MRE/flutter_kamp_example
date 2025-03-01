@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_kamp_example/app_start.dart';
-import 'package:flutter_kamp_example/dependency_injection-lesson-15-february/views/auth_page.dart';
+import 'package:flutter_kamp_example/environment-lesson-01-march/presentation/environment_example/views/environment_example_page.dart';
 
 void main() {
   AppStart().initializeApp();
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AuthPage(),
+      home: const EnvironmentExamplePage(),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
